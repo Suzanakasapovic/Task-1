@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    position:static;
+    length: 80px;
     text-align: center;
 }
 
