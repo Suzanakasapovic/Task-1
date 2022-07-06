@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Gulzar', serif;
-    background-color: beige;
+    font-size: large;
 }
 
 #logo {
@@ -26,28 +26,41 @@ body {
     background-color: rgb(177, 172, 154);
 }
 
-
-.artsx {
-    text-align:justify;
-    padding-left: 10px;
-    padding-right: 100px;
-
-}
-
-.artdx {
-    text-align:justify;
-    padding-left: 1000px;
-    padding-right: 10px;
-
-}
-
-#our-team {
+#today {
     position:relative;
-    top: 50px;
-    font-size:large;
+    text-align:center;
+    text-align:justify;
 }
 
-.imgdx {
-    padding-left: 700px;
-    padding-right: 10px;
+.title {
+    font-size: x-large;
+}
+
+.border {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    border-top-color:rgb(196, 128, 39);
+    margin: 50px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+b {
+    font-size:x-large;
+    color:burlywood;
+}
+
+footer {
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    
 }
