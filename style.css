@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+
+body {
+    font-family: 'Gulzar', serif;
+    background-color: beige;
+}
+
+#logo {
+    position:relative;
+    text-align:center;
+    padding-left: 500px;
+}
+
+.header {
+    position:static;
+    text-align: center;
+}
+
+#presentation {
+    position:relative;
+    top: 50px;
+    text-align: justify;
+    text-align: center;
+    font-size:larger;
+    background-color: rgb(177, 172, 154);
+}
+
+
+.artsx {
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 100px;
+
+}
+
+.artdx {
+    text-align:justify;
+    padding-left: 1000px;
+    padding-right: 10px;
+
+}
+
+#our-team {
+    position:relative;
+    top: 50px;
+    font-size:large;
+}
+
+.imgdx {
+    padding-left: 700px;
+    padding-right: 10px;
+}
